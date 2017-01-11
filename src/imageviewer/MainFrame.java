@@ -35,7 +35,7 @@ public class MainFrame extends JFrame {
     private Component image() {
         SwingImageDisplay display = new SwingImageDisplay();
         imageDisplay = display;
-        return new SwingImageDisplay();
+        return display;
     }
 
     public ImageDisplay getImageDisplay() {
